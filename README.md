@@ -27,10 +27,11 @@ A Next.js-based web application for creating and managing D&D character NFTs on 
 
 ## Environment Variables
 
-Create a `.env.local` file with the following:
+Create a `.env` file with the following:
 
+```bash
 NEXT_PUBLIC_ONCHAINKIT_PROJECT_NAME=dnd-frontend
-NEXT_PUBLIC_ONCHAINKIT_API_KEY=your_api_key [From Coinbase Developer portal]
+NEXT_PUBLIC_ONCHAINKIT_API_KEY=your_api_key # Get from: https://portal.cdp.coinbase.com/
 NEXT_PUBLIC_ONCHAINKIT_WALLET_CONFIG=smartWalletOnly
 NEXT_PUBLIC_API_HOST={Your DND Backend}
 NEXT_PUBLIC_CONTRACT_ADDRESS=your_contract_address
