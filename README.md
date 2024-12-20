@@ -36,6 +36,7 @@ NEXT_PUBLIC_ONCHAINKIT_WALLET_CONFIG=smartWalletOnly
 NEXT_PUBLIC_API_HOST={Your DND Backend}
 NEXT_PUBLIC_CONTRACT_ADDRESS=your_contract_address
 NEXT_PUBLIC_RPC_URL=your_rpc_url
+```
 
 ## Installation
 
